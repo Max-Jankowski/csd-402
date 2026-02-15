@@ -62,7 +62,7 @@ public class UseFans { // class to use collection of objects in the fan class
         System.out.println("### Working with Fan Collections ###\n");
 
       // Formating a display to inform what part of code is being worked on
-        System.out.println("---- PART 1: Lets Make Some Fans !!------");
+        System.out.println("---- Lets Make Some Fans !!------");
         System.out.println("*".repeat(50));
 
         ArrayList<JankowskiFan> fanCollection = new ArrayList<>(); // Creating an array to store our fan objects, requirement 1
@@ -121,10 +121,10 @@ public class UseFans { // class to use collection of objects in the fan class
 
 
         //This part is extra, but it shows how fans can be removed from the collection
-        System.out.println("\n\n--- Removing Fan from Collection ---");
+        System.out.println("\n\n--- Removing Fans from Collection ---");
         System.out.println("*".repeat(50));
 
-        System.out.println("\nRemoving Fans 2,3 and 4 from the collection...");
+        System.out.println("\nRemoving Fans 2,3, and 4 from the collection...");
         fanCollection.remove(fan2);
         fanCollection.remove(fan3);
         fanCollection.remove(fan4);  // removed 3 fans leaving only 1 and 5
@@ -135,3 +135,5 @@ public class UseFans { // class to use collection of objects in the fan class
 
     }
 }
+// This is a minor addition, For the most part I used class materials. But I found this video helpful
+// https://www.youtube.com/watch?v=cNqIbhYXprk
